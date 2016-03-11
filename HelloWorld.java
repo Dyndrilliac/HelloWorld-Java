@@ -1,12 +1,12 @@
 public class HelloWorld
 {
-	public static void print()
-	{
-		System.out.println("Hello World!");
-	}
-	
-	public static void main(String[] args)
-	{
-		HelloWorld.print();
-	}
+    public static void main(final String[] args)
+    {
+        HelloWorld.print();
+    }
+
+    public static void print()
+    {
+        System.out.println("Hello World!");
+    }
 }
